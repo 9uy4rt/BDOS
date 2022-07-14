@@ -7,7 +7,8 @@
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:spinnerMode="dropdown" />
+        android:spinnerMode="dropdown"
+        />
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="match_parent"
@@ -24,11 +25,14 @@
         android:layout_height="wrap_content"
         android:spinnerMode="dropdown" />
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Reset"
-        android:layout_marginTop="580dp"/>
+        android:layout_marginTop="290dp"
+        />
 
 </LinearLayout>
