@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -18,14 +17,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*/
-        final String st1="풀의 광명석:미지 / 항해경험치+3%";
-        final String st2="풀의 광명석:수완 / 교역경험치+3%";
-        final String st3="풀의 광명석:파랑 / 항해숙련도+5";
-        final String st4="오색빛 광명석";
-        final String st5="바람의 광명석:머리/";/*/
+        final String[] artifact1={"-유물 선택-","마쉬의 유물:몬스터 추가 공격력 / 몬스터 추가 공격력+6","세스라의 유물:채집물 획득 확률 / 모든 채집물 획득 확률 증가+2%"};
         final String[] stone1 = {"-광명석 선택-","풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5","오색빛 광명석","바람의 광명석:머리 / 최대정신력,신성력,투지+50"};
         final String[] stone2 = {"-광명석 선택-","풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5","오색빛 광명석","바람의 광명석:머리 / 최대정신력,신성력,투지+50"};
+        final String[] artifact2={"-유물 선택-","마쉬의 유물:몬스터 추가 공격력 / 몬스터 추가 공격력+6","세스라의 유물:채집물 획득 확률 / 모든 채집물 획득 확률 증가+2%"};
         final String[] stone3 = {"-광명석 선택-","풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5","오색빛 광명석","바람의 광명석:머리 / 최대정신력,신성력,투지+50"};
         final String[] stone4 = {"-광명석 선택-","풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5","오색빛 광명석","바람의 광명석:머리 / 최대정신력,신성력,투지+50"};
         int[] sp = {0, 0, 0, 0};
@@ -48,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
                     }else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
                         TextView text1=(TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 항해경험치+8%");
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
                     }
                 }else if(str.equals(stone1[2])){
                     Log.i("test","true/false");
@@ -72,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
                     } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
                         TextView text1=(TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 항해경험치+8%");
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
                     }
                 }
             }
@@ -121,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
                     } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
                         TextView text1=(TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 항해경험치+8%");
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
                     }
                 }
             }
@@ -170,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
                     } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
                         TextView text1=(TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 항해경험치+8%");
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
                     }
                 }
             }
@@ -219,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
                     } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
                         TextView text1=(TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 항해경험치+8%");
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
                     }
                 }
             }
