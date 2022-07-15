@@ -14,11 +14,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        final String[] stone1 = {"-광명석 선택-","풀의 광명석:미지", "풀의 광명석:수완", "풀의 광명석:수완", "풀의 광명석:파랑", "오색빛 광명석"};
-        final String[] stone2 = {"-광명석 선택-","풀의 광명석:미지", "풀의 광명석:수완", "풀의 광명석:수완", "풀의 광명석:파랑", "오색빛 광명석"};
-        final String[] stone3 = {"-광명석 선택-","풀의 광명석:미지", "풀의 광명석:수완", "풀의 광명석:수완", "풀의 광명석:파랑", "오색빛 광명석"};
-        final String[] stone4 = {"-광명석 선택-","풀의 광명석:미지", "풀의 광명석:수완", "풀의 광명석:수완", "풀의 광명석:파랑", "오색빛 광명석"};
+        final String st1="풀의 광명석:미지/항해경험치?";
+        final String st2="풀의 광명석:수완/교역경험치?";
+        final String st3="풀의 광명석:파랑";
+        final String st4="오색빛 광명석";
+        final String[] stone1 = {"-광명석 선택-",st1, st2, st3, st4};
+        final String[] stone2 = {"-광명석 선택-",st1, st2, st3, st4};
+        final String[] stone3 = {"-광명석 선택-",st1, st2, st3, st4};
+        final String[] stone4 = {"-광명석 선택-",st1, st2, st3, st4};
         Spinner spiner1 = (Spinner) findViewById(R.id.spinner1);
 
         ArrayAdapter adapter1 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, stone1);
