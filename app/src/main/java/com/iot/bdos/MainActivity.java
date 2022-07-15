@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         final String[] artifact2={"-유물 선택-","마쉬의 유물:몬스터 추가 공격력 / 몬스터 추가 공격력+6","세스라의 유물:채집물 획득 확률 / 모든 채집물 획득 확률 증가+2%"};
         final String[] stone3 = {"-광명석 선택-","풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5","오색빛 광명석","바람의 광명석:머리 / 최대정신력,신성력,투지+50"};
         final String[] stone4 = {"-광명석 선택-","풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5","오색빛 광명석","바람의 광명석:머리 / 최대정신력,신성력,투지+50"};
-        int[] sp = {0, 0, 0, 0,0,0};
+        int[] sp = {0, 0, 0, 0};
         Spinner spiner5 = (Spinner) findViewById(R.id.spinner5);
 
         ArrayAdapter adapter5 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, artifact1);
@@ -103,6 +103,19 @@ public class MainActivity extends AppCompatActivity {
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
                     }
+                }else if(str.equals(stone1[5])){
+                    Log.i("test","true/false");
+                    sp[0] = 5;
+                    if(sp[0]==1 && sp[1]==1 && sp[2]==1 && sp[3]==1){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                    } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                    }else if(sp[0]==1 && sp[1]==1 && sp[2]==5 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                    }
                 }
             }
 
@@ -163,6 +176,19 @@ public class MainActivity extends AppCompatActivity {
                 }else if(str.equals(stone2[4])){
                     Log.i("test","true/false");
                     sp[1] = 4;
+                    if(sp[0]==1 && sp[1]==1 && sp[2]==1 && sp[3]==1){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                    } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                    }else if(sp[0]==1 && sp[1]==1 && sp[2]==5 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                    }
+                }else if(str.equals(stone2[5])){
+                    Log.i("test","true/false");
+                    sp[1] = 5;
                     if(sp[0]==1 && sp[1]==1 && sp[2]==1 && sp[3]==1){
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
@@ -260,6 +286,19 @@ public class MainActivity extends AppCompatActivity {
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
                     }
+                }else if(str.equals(stone3[5])){
+                    Log.i("test","true/false");
+                    sp[2] = 5;
+                    if(sp[0]==1 && sp[1]==1 && sp[2]==1 && sp[3]==1){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                    } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                    }else if(sp[0]==1 && sp[1]==1 && sp[2]==5 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                    }
                 }
             }
 
@@ -320,6 +359,19 @@ public class MainActivity extends AppCompatActivity {
                 }else if(str.equals(stone4[4])){
                     Log.i("test","true/false");
                     sp[3] = 4;
+                    if(sp[0]==1 && sp[1]==1 && sp[2]==1 && sp[3]==1){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                    } else if(sp[0]==1 && sp[1]==2 && sp[2]==3 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                    }else if(sp[0]==1 && sp[1]==1 && sp[2]==5 && sp[3]==4){
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                    }
+                }else if(str.equals(stone4[5])){
+                    Log.i("test","true/false");
+                    sp[3] = 5;
                     if(sp[0]==1 && sp[1]==1 && sp[2]==1 && sp[3]==1){
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
