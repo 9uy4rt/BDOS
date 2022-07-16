@@ -19,12 +19,22 @@ public class MainActivity extends AppCompatActivity {
         protected void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final String[] artifact1 = {"-유물 선택-", "마쉬의 유물-몬스터 추가 공격력 / 몬스터 추가 공격력+6", "세스라의 유물-채집물 획득 확률 / 모든 채집물 획득 확률 증가+2%", "레샤의 유물-근거리 회피력 / 근거리 회피력+12", "케헬의 유물-최대 지구력 / 최대 지구력+50"};
-        final String[] stone1 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5", "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%"};
-        final String[] stone2 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5", "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%"};
-        final String[] artifact2 = {"-유물 선택-", "마쉬의 유물-몬스터 추가 공격력 / 몬스터 추가 공격력+6", "세스라의 유물-채집물 획득 확률 / 모든 채집물 획득 확률 증가+2%", "레샤의 유물-근거리 회피력 / 근거리 회피력+12", "케헬의 유물-최대 지구력 / 최대 지구력+50"};
-        final String[] stone3 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5", "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%"};
-        final String[] stone4 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5", "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%"};
+        final String[] artifact1 = {"-유물 선택-", "마쉬의 유물-몬스터 추가 공격력 / 몬스터 추가 공격력+6", "세스라의 유물-탑승물 경험치 / 탑승물 경험치+3%",
+                "레샤의 유물-근거리 회피력 / 근거리 회피력+12", "케헬의 유물-최대 지구력 / 최대 지구력+50"};
+        final String[] stone1 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5",
+                "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%",
+                "바람의 광명석:심장 / 최대생명력+50","땅의 광명석:장막 / 몬스터에게 받는 피해량-1%"};
+        final String[] stone2 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5",
+                "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%",
+                "바람의 광명석:심장 / 최대생명력+50","땅의 광명석:장막 / 몬스터에게 받는 피해량-1%"};
+        final String[] artifact2 = {"-유물 선택-", "마쉬의 유물-몬스터 추가 공격력 / 몬스터 추가 공격력+6", "세스라의 유물-탑승물 경험치 / 탑승물 경험치+3%",
+                "레샤의 유물-근거리 회피력 / 근거리 회피력+12", "케헬의 유물-최대 지구력 / 최대 지구력+50"};
+        final String[] stone3 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5",
+                "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%",
+                "바람의 광명석:심장 / 최대생명력+50","땅의 광명석:장막 / 몬스터에게 받는 피해량-1%"};
+        final String[] stone4 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5",
+                "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%",
+                "바람의 광명석:심장 / 최대생명력+50","땅의 광명석:장막 / 몬스터에게 받는 피해량-1%"};
         int[] sp = {0, 0, 0, 0};
         Spinner spiner5 = (Spinner) findViewById(R.id.spinner5);
         ArrayAdapter adapter5 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, artifact1);
@@ -66,6 +76,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -85,6 +101,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -104,6 +126,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -123,6 +151,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -142,6 +176,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -161,6 +201,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -180,6 +226,62 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone1[8])) {
+                    Log.i("test", "true/false");
+                    sp[0] = 8;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone1[9])) {
+                    Log.i("test", "true/false");
+                    sp[0] = 9;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -217,6 +319,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -236,6 +344,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -255,6 +369,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -274,6 +394,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -293,6 +419,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -312,6 +444,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -331,6 +469,62 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone2[8])) {
+                    Log.i("test", "true/false");
+                    sp[1] = 8;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone2[9])) {
+                    Log.i("test", "true/false");
+                    sp[1] = 9;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -385,6 +579,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -404,6 +604,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -423,6 +629,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -442,6 +654,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -461,6 +679,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -480,6 +704,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -499,6 +729,62 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone3[8])) {
+                    Log.i("test", "true/false");
+                    sp[2] = 8;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone3[9])) {
+                    Log.i("test", "true/false");
+                    sp[2] = 9;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -536,6 +822,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -555,6 +847,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -574,6 +872,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -593,6 +897,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -612,6 +922,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -631,6 +947,12 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -650,6 +972,62 @@ public class MainActivity extends AppCompatActivity {
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
                         text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone4[8])) {
+                    Log.i("test", "true/false");
+                    sp[3] = 8;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
+                    }else{
+                        TextView text1=(TextView) findViewById(R.id.text1);
+                        text1.setText("");
+                    }
+                }else if (str.equals(stone4[9])) {
+                    Log.i("test", "true/false");
+                    sp[3] = 9;
+                    if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
+                    } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
+                    } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
+                    } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
+                    }else if (sp[0] == 8 && sp[1] == 8 && sp[2] == 9 && sp[3] == 9) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<전선 강화>\n최대생명력 +100\n몬스터 피해감소+15\n몬스터에게 받는 피해량-2%");
+                    }else if (sp[0] == 9 && sp[1] == 9 && sp[2] == 9 && sp[3] == 4) {
+                        TextView text1 = (TextView) findViewById(R.id.text1);
+                        text1.setText("<철옹성>\n몬스터 피해감소+20\n몬스터에게 받는 피해량-3%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
