@@ -53,8 +53,7 @@
         android:text=""
         android:textSize="28dp"
         android:textColor="#C80000"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
+        android:gravity="center|top"
         android:layout_weight="6.75"/>
     <Button
         android:id="@+id/bu1"

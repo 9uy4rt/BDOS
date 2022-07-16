@@ -56,16 +56,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 1;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -75,16 +75,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 2;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -94,16 +94,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 3;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -113,16 +113,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 4;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -132,16 +132,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 5;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -151,16 +151,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 6;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -170,16 +170,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[0] = 7;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -207,16 +207,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 1;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -226,16 +226,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 2;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -245,16 +245,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 3;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -264,16 +264,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 4;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -283,16 +283,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 5;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -302,16 +302,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 6;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -321,16 +321,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[1] = 7;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -375,16 +375,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 1;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -394,16 +394,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 2;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -413,16 +413,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 3;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -432,16 +432,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 4;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -451,16 +451,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 5;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -470,16 +470,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 6;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -489,16 +489,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[2] = 7;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -526,16 +526,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 1;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -545,16 +545,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 2;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -564,16 +564,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 3;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -583,16 +583,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 4;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -602,16 +602,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 5;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -621,16 +621,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 6;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
@@ -640,16 +640,16 @@ public class MainActivity extends AppCompatActivity {
                     sp[3] = 7;
                     if (sp[0] == 1 && sp[1] == 1 && sp[2] == 1 && sp[3] == 1) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<하늘과 바다의 경계로> / 항해경험치+8%");
+                        text1.setText("<하늘과 바다의 경계로>\n항해경험치+8%");
                     } else if (sp[0] == 1 && sp[1] == 2 && sp[2] == 3 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<바다의 포옹> / 인어의 소망3,항해경험치+10%,교역경험치+10%,항해숙련도+45");
+                        text1.setText("<바다의 포옹>\n인어의 소망3\n항해경험치+10%\n교역경험치+10%\n항해숙련도+45");
                     } else if (sp[0] == 1 && sp[1] == 1 && sp[2] == 5 && sp[3] == 4) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<선택과 집중:항해> / 항해숙련도-500,항해경험치+35%");
+                        text1.setText("<선택과 집중:항해>\n항해숙련도-500\n항해경험치+35%");
                     } else if (sp[0] == 6 && sp[1] == 6 && sp[2] == 7 && sp[3] == 7) {
                         TextView text1 = (TextView) findViewById(R.id.text1);
-                        text1.setText("<일격필살> / 몬스터 추가 공격력+10,치명타 확률 증가+10%");
+                        text1.setText("<일격필살>\n몬스터 추가 공격력+10\n치명타 확률 증가+10%");
                     }else{
                         TextView text1=(TextView) findViewById(R.id.text1);
                         text1.setText("");
