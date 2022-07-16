@@ -11,10 +11,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 
-public class MainActivity extends AppCompatActivity
-        {
-
-
+public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onCreate (Bundle savedInstanceState){
@@ -28,11 +25,9 @@ public class MainActivity extends AppCompatActivity
         final String[] stone4 = {"-광명석 선택-", "풀의 광명석:미지 / 항해경험치+3%", "풀의 광명석:수완 / 교역경험치+3%", "풀의 광명석:파랑 / 항해숙련도+5", "오색빛 광명석", "바람의 광명석:머리 / 최대정신력,신성력,투지+50", "불의 광명석:천적 / 몬스터 추가 공격력+3", "불의 광명석:비수 / 치명타 확률+2%"};
         int[] sp = {0, 0, 0, 0};
         Spinner spiner5 = (Spinner) findViewById(R.id.spinner5);
-
         ArrayAdapter adapter5 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, artifact1);
         adapter5.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spiner5.setAdapter(adapter5);
-
         spiner5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
